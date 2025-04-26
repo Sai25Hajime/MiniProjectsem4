@@ -126,7 +126,7 @@ STATIC_ROOT=os.path.join(BASE_DIR,'assets')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-import dj_database_url
+
 
 if not DEBUG:
     STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
